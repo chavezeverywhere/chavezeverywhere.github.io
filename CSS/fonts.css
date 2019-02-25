@@ -1,0 +1,53 @@
+.h1, .h2, .h3, .h4, .h5, .h6 h1, h2, h3, h4, h5, h6 {
+    font-family: libre-franklin, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.h7, h7 {
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vh;
+}
+
+a {
+    font-family: libre-franklin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button, p, li {
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li {
+    margin-top: 1vh;
+    font-size: 2vh;
+    list-style-type: none;
+}
+
+.boldtext {
+    font-family: libre-franklin, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subtitle{
+    font-family: libre-franklin,sans-serif;
+    font-weight: 700!important;
+    font-size: 4vh!important;
+    color:#4D4D4D;
+}
+.subsubtitle{
+    font-family: libre-franklin,sans-serif;
+    font-weight: 700!important;
+    font-size: 2vh!important;
+    color:#4D4D4D;
+}
+
+.paragraph{
+    font-size: 2vh;
+}

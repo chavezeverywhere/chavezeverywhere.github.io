@@ -1,0 +1,30 @@
+.AboutContainer {
+    min-height: 10vh;
+    display: grid;
+    width: 70%;
+    margin: auto;
+    gap: 2vh;
+    font-size: 3vh;
+    background-color: #EDEDED;
+    color: #4D4D4D;
+    text-align: center;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows:100%;
+    grid-template-areas:
+            "box1 box2 box3";
+}
+
+.AboutContainer >*{
+    margin: auto;
+}
+
+@media only screen and (max-width: 990px) {
+    .AboutContainer {
+        width: 90%;
+        display: grid;
+        font-size: 2vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "box1" "box2" "box3";
+    }
+}
